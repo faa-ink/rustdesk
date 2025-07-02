@@ -100,8 +100,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["rustdesk.faa.ink"];
-pub const RS_PUB_KEY: &str = "qHK4g1cFY2eZbrEvKkXYxtaWeogVF58gDYOVNU9GrZc=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["faa.ink"];
+pub const RS_PUB_KEY: &str = "qHK4g1cFY2eZbrEv1111111111111111";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
