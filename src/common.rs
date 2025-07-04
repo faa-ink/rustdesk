@@ -1004,7 +1004,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://admin.rustdesk.com".to_owned()
+    "https://rustdeskapi02.faa.ink".to_owned()   //API服务器地址
 }
 
 #[inline]
