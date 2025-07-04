@@ -100,10 +100,10 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["faa.ink"];
-pub const RS_PUB_KEY: &str = "qHK4g1cFY2eZbrEv1111111111111111";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["rustdesk02.faa.ink"];
+pub const RS_PUB_KEY: &str = "p5ATkWqH3pi2YOBAaJSKbQAKCPgMYBfRef3IWc0tR+c=";
 
-pub const RENDEZVOUS_PORT: i32 = 21116;
+pub const RENDEZVOUS_PORT: i32 = 21115;   //默认21116
 pub const RELAY_PORT: i32 = 21117;
 pub const WS_RENDEZVOUS_PORT: i32 = 21118;
 pub const WS_RELAY_PORT: i32 = 21119;
